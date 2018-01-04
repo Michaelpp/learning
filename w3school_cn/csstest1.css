@@ -1,0 +1,435 @@
+
+
+/* css 背景实例 */
+
+body {
+	 background: url(https://ws4.sinaimg.cn/large/006tKfTcgy1flvoii32qxj30dw0dwt8u.jpg) lightgray no-repeat fixed center; background-position: 20% 20%
+
+}
+
+h1{
+	background-color: rgb(200%,200%,200%) 
+}
+
+h2{
+	background-color: rgba(100, 200, 51, .9) ;   /*  90% opaque green */ 
+}
+
+p.no2 {background-color: purple; padding: 20px;}
+
+span.highlight{
+	background-color: yellow
+}
+
+
+/* css 文本实例 */
+
+body{
+	color:blue;
+}
+
+h3{
+	color: orange;
+}
+
+p.ex{
+	color: #00ffff;
+}
+
+h1{
+	letter-spacing: -0.1em;
+}
+
+h2{
+	letter-spacing: 20px;
+}
+
+p.small{
+	line-height: 90%
+}
+
+p.big{
+	line-height: 200%
+}
+
+p.pix{
+	line-height: 50px;
+}
+
+/*text-decoration (overline, line-through, underline,blink,none) */
+h1.text_deco{
+	text-decoration: line-through; text-indent: 2cm;
+}
+
+h1{
+	text-transform: uppercase;
+}
+
+p.spread{
+	word-spacing: 30px;
+}
+
+p.tight{
+	word-spacing: -0.1em;
+}
+
+/* CSS 字体(font)实例 */
+
+p.serif{
+	font-family: "Times New Roman",Georgia, Serif;
+	font-size: 200%;
+	font-style: italic;
+	font-weight: bold;
+}
+p.sansserif{
+	font-family: Arial, Verdana, Sans-serif;
+	font-size: 150%; font-variant: small-caps;
+	font-weight: 900px;
+}
+
+p.ex2{
+
+	font:italic bold 30px arial,Sans-serif;
+
+}
+
+/*CSS 边框(border)实例：*/
+
+p.borders{
+	border: medium dashed rgb(255,0,255)
+}
+
+/* dotted, dashed,solid,double, groove,ridge,inset, outset */
+
+p.three {
+	border-style: solid double groove
+}
+
+p.border-width{
+	border-style: solid;
+	border-width: 5px 10px 2px 7px
+
+}
+
+p.border-color{
+	border-style: solid;
+	border-color: #ffff00 #7fffd4 #8a2be2 #cd5c5c
+
+}
+
+p.border-bottom-color{
+	border-style: solid;
+	border-bottom-color: red;
+	border-bottom-style: dotted;
+	border-bottom-width: 10px;
+}
+
+/* CSS 外边距 (margin) 实例：*/
+
+p.margin{
+	margin: 2cm 10cm 6cm 4cm;
+}
+
+/*CSS 内边距 (padding) 实例：*/
+
+td.test1{
+	padding-top: 3cm;
+
+}
+
+td.test2{
+	padding-top: 10%;
+}
+
+/*CSS 列表实例：*/
+ul.disc{
+	list-style-type: disc;
+}
+
+ul.circle{
+	list-style-type: circle;
+}
+
+ul.square{
+	list-style-type: square;
+}
+
+
+ol.decimal{
+	list-style-type: decimal;
+}
+
+ol.lower-roman{
+	list-style-type: lower-roman;
+}
+
+ol.lower-alpha{
+	list-style-type: lower-alpha;lis
+}
+
+
+/*CSS 表格实例：*/
+
+table.one{
+	table-layout: auto;
+}
+
+table.two{
+	table-layout: fixed;
+}
+
+table.empty{
+	border-width: 100%
+	border-collapse: collapse;/*合并表格边框*/
+	border-spacing: 20px 20px
+
+}
+
+/*轮廓（Outline） 实例：*/
+
+p.outline{
+	border:red solid thin;
+	outline: #00ff00 dotted thick;
+	width: 50em;
+	height: 200px;
+	outline-width: 16px;
+}
+
+
+/*CSS 尺寸 (Dimension) 实例：*/
+
+img.big{
+	height: 180px;
+	width: 200px;
+}
+
+
+img.small{
+	height: 30px;
+}
+
+img.normal{
+	height: auto;
+}
+
+p.maxwidth1{
+
+	min-width: 300px;
+
+}
+
+p.maxwidth2{
+
+	max-width: 80%;
+
+}
+
+p.bigline-height{
+	line-height: 300%;
+}
+
+/*CSS 分类 (Classification) 实例：*/
+
+p.display{
+	display: inline;
+}
+
+div.non-display{
+	display: none;
+}
+
+span.block{
+	display: block;
+}
+
+div.float{
+	float: right;
+	border: 3px solid black;
+	margin: 0 60px 5px 70px;
+	padding: 0px;
+}
+
+
+span.cap{
+
+width: 0.8em;
+float:left;
+font-size: 400%;
+font-family:algerian,courier;
+line-height: 80%;
+
+}
+
+ul.menu	{
+	float: left;
+	width: 100%
+	padding:0;
+	margin:0;
+	list-style-type: none;
+}
+
+a.Doc {
+	float: left;
+	width: 9em ;
+	text-decoration: none;
+	color: white;
+	background-color: purple;
+	padding:0.2em 0.6em;
+	border-right:1px solid white;
+}
+
+a.Doc:hover {background-color:#ff3300}
+
+li.header{
+	display: inline;
+}
+
+/*使用浮动来创建拥有页眉、页脚、左侧目录和主体内容的首页。*/
+
+div.container{
+	width: 100%;
+	margin: 30px;
+	border:	2px solid gray;
+	line-height: 150%;
+}
+
+
+div.header, div.footer{
+	padding:0.1em;
+	background-color:white; 
+	color:gray;
+	clear:left;
+}
+
+h1.header{
+	padding: 0;
+	margin: 0;
+}
+
+div.left{
+	float: left;
+	width:160px;
+	padding:1em;
+
+}
+
+div.content{
+	margin-left: 290px;
+	border-left: 2px solid red;
+	padding-left: 1em;
+
+}
+
+/* 定位：相对定位*/
+
+h2.pos_left{
+	position: relative;
+	left:-20px;
+}
+
+h2.pos_right{
+	position: relative;
+	right: -20px;
+}
+
+
+h2.pos_abs{
+	position: fixed;
+	left: 100px
+	top:150px;
+}
+
+
+h1.visible{
+	visibility: visible;
+}
+
+h1.invisible{
+	visibility: hidden;
+}
+
+div.cursor{
+	width: 200px;
+	margin: 20px;
+	padding: 10px;
+	border: 2px solid yellow;
+	font-size: 150%;
+}
+
+
+span.wait{
+	cursor: wait;
+}
+
+span.help{
+	cursor: help;
+}
+
+span.crosshair{
+	cursor: crosshair;
+}
+
+span.move{
+	cursor: move;
+}
+
+/*本例演示如何设置元素的形状。此元素被剪裁到这个形状内，并显示出来。*/
+div.clips{
+	width: 200px;
+	height: 200px;
+	border: 2px solid purple;
+}
+
+img.clip{
+	position: absolute;
+	clip: rect(0,100px,100px,0);
+}
+
+div.scroll{
+	background-color: #00ffff;
+	width: 150px;
+	height: 150px;
+	overflow: scroll;
+}
+
+img.z-index{
+	position: absolute;
+	left: 0
+	top: 0
+	z-index: 1;
+
+}
+
+/*本例演示如何向文档中的超链接添加不同的颜色。*/
+a.url:link{
+	color:blue;
+}
+
+a.url:visited{
+	color: green;
+}
+
+a.url:hover{
+	color:purple;
+}
+
+a.url:active{
+	color: yellow;
+}
+
+input:focus{
+	background-color: yellow;
+}
+
+
+p:first-letter{
+	color: #ff0000;
+	font-size: 200%;
+}
+
+p:first-line{
+	color: #ff0000;
+	font-variant: small-caps;	
+}
+
+
