@@ -1,0 +1,109 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>	
+	<title>
+		Responsive Web Design -Grid-View
+	</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+</head>
+<style>
+* {
+	box-sizing:border-box;
+	padding: 0;
+	margin:0;
+}
+
+html{
+	font-family: "sans-serif","Times New Roman";
+}
+
+	.header,.footer{
+		background-color: #b3b3b3;
+		color:white;
+		padding: 15px;
+		box-shadow: 5px 10px 15px #737373;
+	}
+
+
+.nav ul{
+	list-style-type: none;
+	margin:0;
+	padding:5px;
+
+}
+
+.nav li{
+	background-color: #4dc9ff;
+	color:white;
+	padding:5px;
+	margin-bottom: 10px;
+	box-shadow: 5px 10px 8px #888888;
+}
+
+.nav li:hover{
+	background-color: #00b0b3;
+}
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+[class*="col-"]{
+	float:left;
+	padding: 10px;
+
+}
+
+.row::after{
+	content: "";
+	clear: both;
+	display: table;
+}
+
+
+
+
+</style>
+
+<body>
+	<div class="header">
+		<h1>Chania<h1>
+	</div>
+
+<div class="row">	
+	<div class="col-2 nav">
+	<ul>
+	 <li>The flight</li>
+	 <li>The city</li>
+	 <li>The island</li>
+	 <li>The food</li>
+ 	</ul>
+	</div>		
+
+	<div class="col-10 main">
+	<h1>The city</h1>
+	 <p>Chania is the capital of the Chania region on the island of Crete. The city can be divided in two parts, the old town and the modern city.</p>
+	 <p>Resize the browser window to see how the content respond to the resizing.</p>
+	</div>
+
+</div>
+
+	<div class="footer">
+		<p>This is footer</p>
+	</div>
+	
+
+</body>
+</html>
