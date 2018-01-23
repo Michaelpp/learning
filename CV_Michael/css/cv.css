@@ -43,7 +43,7 @@ div.hidden,nav.hidden{
 .navbar img{
 	position: absolute;
 	top:20%;
-	left:30%;
+	left:25%;
 	width: 100px;
 	height: 100px;
     display: block;
@@ -55,7 +55,7 @@ div.hidden,nav.hidden{
 .navbar ul{
 	position: absolute;
 	top:40%;
-	left:30%;
+	left:25%;
 	margin:0;
 	padding:0;
 }
@@ -84,7 +84,7 @@ div.hidden,nav.hidden{
 #about,#production,#description,#work,#education{
 	height: 100%;
 	margin:0;
-	padding:8em 3em 3em 4em;
+	padding:7em 3em 3em 4em;
 	border-bottom: 1px solid #919191;
 	background:linear-gradient(to right,#99e0ff 0%, #e6f7ff 100%);
 	overflow: auto;
