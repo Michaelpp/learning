@@ -1,5 +1,5 @@
 
-/*cv template*/
+/*cv.css*/
 
 html,body,*{
 	margin:0;
@@ -36,7 +36,7 @@ body {
 	margin-left: 20%;
 }
 
-div.hidden,nav.hidden{
+div.hiddenone,div.hiddentwo{
 	display: none;
 }
 

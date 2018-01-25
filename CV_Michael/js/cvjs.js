@@ -1,4 +1,5 @@
 
+/*cs.js*/
 
   $(document).ready(function(){
  
@@ -24,9 +25,9 @@
   });
 
   $(document).ready(function(){
-    $('div.hidden').fadeIn(3000).removeClass('hidden');
+    $('div.hiddenone    ').fadeIn(7000).removeClass('hiddenone');
   });
 
   $(document).ready(function(){
-    $('nav.hidden').fadeIn(4000).removeClass('hidden');
+    $('div.hiddentwo').fadeIn(7000).removeClass('hiddentwo');
   });
