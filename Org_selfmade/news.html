@@ -5,15 +5,7 @@
 	<meta charset="utf-8">
 	<title>新闻中心</title>
 	<link rel="stylesheet" type="text/css" href="css/news.css">
-	<script type="text/javascript" src="js/myfocus-2.0.1.min.js"></script>
-	<script type="text/javascript" src="js/mf-pattern/mF_YSlider.js"></script>
-	<link rel="stylesheet" type="text/css" href="js/mf-pattern/mF_YSlider.css">
-	<script type="text/javascript">
-		myFocus.set({
-			id:'picBox'
-		}
-	)
-	</script>
+</head>
 
 <body>
 	<div class="top">	
@@ -27,6 +19,7 @@
 	<div class="wrap">
 		<div class="logo">	
 			<div class="logo_left">
+				<div class="intro">Michael Made</div>
 				<img src="images/logo.jpg">
 			</div>
 			<div class="logo_right">
@@ -54,16 +47,13 @@
 	<!--navbar结束-->
 
 	<div class="navimg">
-		<div class="ad" id="picBox">
-			<div class="pic">
-				<ul>
-					<li><img src="images/ad2.jpg"></li>
-					<li><img src="images/ad3.jpg"></li>
-					<li><img src="images/ad4.jpg"></li>
-				</ul>
-			</div>
-		</div>
+		<div class="mySlides fade"><img src="images/ad2.jpg"></div>
+		<div class="mySlides fade"><img src="images/ad3.jpg"></div>
+		<div class="mySlides fade"><img src="images/ad4.jpg"></div>
+		<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+		<a class="next" onclick="plusSlides(1)">&#10095;</a>
 	</div>
+	<!--navimg结束-->
 
 	<div class="news_inner">
 		<div class="news_inner_left">
@@ -154,6 +144,6 @@
 		</div>	
 	</div>
 	<!--footer结束-->
-
+<script src="js/org_js.js"></script>
 </body>
 </html>
