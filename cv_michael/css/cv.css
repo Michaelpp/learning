@@ -82,6 +82,10 @@ body{
 	font-size: 20px;
 }
 
+#production{
+	word-wrap: break-word;
+}
+
 #about,#production,#skills,#description,#work,#education{
 	min-height: 100%;
 	padding:3em;
@@ -172,7 +176,7 @@ p {text-indent: 0.5em; margin:0.5em;}
 
 	.navli{
 		position: absolute;
-		top:5px;
+		top:4px;
 		left:70px;
 		min-height: 100px;
 	}
@@ -180,7 +184,7 @@ p {text-indent: 0.5em; margin:0.5em;}
 	.navbar ul{
 		list-style-type: none;
 		min-width: 200px;
-		margin:5px;
+		margin:2px;
 
 	}
 
