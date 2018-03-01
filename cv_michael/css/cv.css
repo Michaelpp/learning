@@ -189,7 +189,7 @@ p {text-indent: 0.5em; margin:0.5em;}
 	}
 
 	.navbar li{
-		font-size: 0.9em;
+		font-size: 0.8em;
 		margin-top:5px;
 		display: inline-block;
 	}
@@ -200,7 +200,7 @@ p {text-indent: 0.5em; margin:0.5em;}
 		border:1px solid #a6a6a6;
 		border-radius: 20px;
 		padding:5px;
-		margin-left:5px;
+		margin-left:4px;
 	}
 
 	.navbar li a:hover,.navbar li a:active{
