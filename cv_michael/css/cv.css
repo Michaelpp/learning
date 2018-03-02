@@ -160,7 +160,7 @@ p {text-indent: 0.5em; margin:0.5em;}
 		width:99%;
 		left:0;
 		top:0;
-		bottom:99%;
+		bottom:100%;
 		min-height:90px;
 		overflow: hidden;
 	}
