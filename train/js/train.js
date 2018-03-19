@@ -109,8 +109,9 @@ var isAjax = false
 		$("#list").on("click","a", getInfoByTrainCode);
 	};
 
-	$(document).on("pageshow","#index",function(){
+	$(document).on("pageshow","#index",function(e){
 		bindEvent();
+		e.stopPropogation();
 	});
 
 	
